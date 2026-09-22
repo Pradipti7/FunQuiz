@@ -11,25 +11,32 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState(null)
   const [selectedDifficulty, setSelectedDifficulty] = useState(null)
 
+  const isKpop = selectedCategory?.id === 'kpop'
+
   if (page === 'landing') {
     return <LandingPage onEnter={() => setPage('home')} />
   }
 
-  if (page === 'quiz' && selectedCategory && selectedTopic && selectedDifficulty) {
+  if (page === 'quiz' && selectedCategory && selectedTopic) {
     return (
       <QuizPage
         category={selectedCategory}
         topic={selectedTopic}
         difficulty={selectedDifficulty}
         onBack={() => {
-          setSelectedDifficulty(null)
-          setPage('difficulty')
+          if (isKpop) {
+            setSelectedDifficulty(null)
+            setPage('difficulty')
+          } else {
+            setSelectedTopic(null)
+            setPage('topic')
+          }
         }}
       />
     )
   }
 
-  if (page === 'difficulty' && selectedCategory && selectedTopic) {
+  if (page === 'difficulty' && isKpop && selectedCategory && selectedTopic) {
     return (
       <DifficultyPage
         category={selectedCategory}
@@ -52,7 +59,11 @@ function App() {
         category={selectedCategory}
         onSelectTopic={(topic) => {
           setSelectedTopic(topic)
-          setPage('difficulty')
+          if (isKpop) {
+            setPage('difficulty')
+          } else {
+            setPage('quiz')
+          }
         }}
         onBack={() => {
           setSelectedCategory(null)
