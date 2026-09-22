@@ -65,7 +65,7 @@ export default function LandingPage({ onEnter }) {
             <span>•</span>
             <span>Gaming</span>
             <span>•</span>
-            <span>K-Drama</span>
+            <span>Drama</span>
           </div>
         </div>
 
