@@ -1,1 +1,87 @@
 @import "tailwindcss";
+
+@keyframes float-up {
+  0% {
+    transform: translateY(100vh) rotate(0deg) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-10vh) rotate(360deg) scale(1.1);
+    opacity: 0;
+  }
+}
+
+@keyframes float-side {
+  0% {
+    transform: translateX(-10vw) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(110vw) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.25);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.floating-emoji {
+  position: absolute;
+  font-size: 2rem;
+  pointer-events: none;
+  animation: float-up linear infinite;
+  will-change: transform;
+}
+
+.floating-emoji-side {
+  position: absolute;
+  font-size: 2.2rem;
+  pointer-events: none;
+  animation: float-side linear infinite;
+  will-change: transform;
+}
+
+.glow-card {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.6) 0%,
+    rgba(255,255,255,1) 50%,
+    rgba(255,255,255,0.6) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
