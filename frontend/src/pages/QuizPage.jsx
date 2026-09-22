@@ -1,4 +1,4 @@
-export default function QuizPage({ category, topic, onBack }) {
+export default function QuizPage({ category, topic, difficulty, onBack }) {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-fuchsia-950 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(139,92,246,0.2),transparent_50%)]" />
@@ -18,7 +18,11 @@ export default function QuizPage({ category, topic, onBack }) {
           <span className="text-6xl block mb-4">{topic.emoji}</span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-2">{topic.name}</h1>
           <p className="text-white/50 text-lg mb-2">{topic.description}</p>
-          <p className="text-white/30 text-sm">{category.emoji} {category.name}</p>
+          <div className="flex items-center justify-center gap-3 mt-4">
+            <span className="text-white/30 text-sm">{category.emoji} {category.name}</span>
+            <span className="text-white/20">•</span>
+            <span className="text-white/30 text-sm">{difficulty.emoji} {difficulty.name}</span>
+          </div>
           <p className="text-white/20 text-sm mt-8">Quiz coming soon...</p>
         </div>
       </div>
