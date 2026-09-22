@@ -2,22 +2,42 @@ import { useState } from 'react'
 import LandingPage from './pages/LandingPage'
 import HomePage from './pages/HomePage'
 import TopicSelectionPage from './pages/TopicSelectionPage'
+import DifficultyPage from './pages/DifficultyPage'
 import QuizPage from './pages/QuizPage'
 
 function App() {
   const [page, setPage] = useState('landing')
   const [selectedCategory, setSelectedCategory] = useState(null)
   const [selectedTopic, setSelectedTopic] = useState(null)
+  const [selectedDifficulty, setSelectedDifficulty] = useState(null)
 
   if (page === 'landing') {
     return <LandingPage onEnter={() => setPage('home')} />
   }
 
-  if (page === 'quiz' && selectedCategory && selectedTopic) {
+  if (page === 'quiz' && selectedCategory && selectedTopic && selectedDifficulty) {
     return (
       <QuizPage
         category={selectedCategory}
         topic={selectedTopic}
+        difficulty={selectedDifficulty}
+        onBack={() => {
+          setSelectedDifficulty(null)
+          setPage('difficulty')
+        }}
+      />
+    )
+  }
+
+  if (page === 'difficulty' && selectedCategory && selectedTopic) {
+    return (
+      <DifficultyPage
+        category={selectedCategory}
+        topic={selectedTopic}
+        onSelectDifficulty={(difficulty) => {
+          setSelectedDifficulty(difficulty)
+          setPage('quiz')
+        }}
         onBack={() => {
           setSelectedTopic(null)
           setPage('topic')
@@ -32,7 +52,7 @@ function App() {
         category={selectedCategory}
         onSelectTopic={(topic) => {
           setSelectedTopic(topic)
-          setPage('quiz')
+          setPage('difficulty')
         }}
         onBack={() => {
           setSelectedCategory(null)
