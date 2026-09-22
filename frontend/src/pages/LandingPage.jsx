@@ -16,14 +16,7 @@ const floatingEmojis = [
   { emoji: '🎬', left: '80%', delay: '10s', duration: '11s', size: '2.1rem' },
 ]
 
-const categories = [
-  { emoji: '🎵', name: 'K-pop', color: 'from-pink-500 to-rose-500' },
-  { emoji: '🎭', name: 'BL', color: 'from-purple-500 to-violet-500' },
-  { emoji: '⚔️', name: 'Anime', color: 'from-red-500 to-orange-500' },
-  { emoji: '🎬', name: 'Bollywood', color: 'from-amber-500 to-yellow-500' },
-  { emoji: '⚡', name: 'Harry Potter', color: 'from-emerald-500 to-teal-500' },
-  { emoji: '🎮', name: 'Gaming', color: 'from-cyan-500 to-blue-500' },
-]
+import { categories } from '../data/categories'
 
 export default function LandingPage({ onEnter }) {
   return (
@@ -71,11 +64,13 @@ export default function LandingPage({ onEnter }) {
             <span>Harry Potter</span>
             <span>•</span>
             <span>Gaming</span>
+            <span>•</span>
+            <span>K-Drama</span>
           </div>
         </div>
 
         {/* Category preview cards */}
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-4 mb-12 max-w-2xl w-full">
+        <div className="grid grid-cols-4 sm:grid-cols-7 gap-3 sm:gap-4 mb-12 max-w-3xl w-full">
           {categories.map((cat) => (
             <div
               key={cat.name}
@@ -108,7 +103,7 @@ export default function LandingPage({ onEnter }) {
 
         {/* Bottom hint */}
         <p className="text-white/30 text-sm mt-8">
-          6 categories • Endless fun
+          7 categories • Endless fun
         </p>
       </div>
     </div>
