@@ -5,5 +5,5 @@ export const categories = [
   { id: 'bollywood', emoji: '🎬', name: 'Bollywood', color: 'from-amber-500 to-yellow-500', description: 'Films, Actors & Iconic Scenes' },
   { id: 'harry-potter', emoji: '⚡', name: 'Harry Potter', color: 'from-emerald-500 to-teal-500', description: 'Hogwarts, Spells & Characters' },
   { id: 'gaming', emoji: '🎮', name: 'Gaming', color: 'from-cyan-500 to-blue-500', description: 'Zelda, Mario, Valorant & more' },
-  { id: 'kdrama', emoji: '📺', name: 'K-Drama', color: 'from-fuchsia-500 to-purple-500', description: 'Squid Game, CLOY, Vincenzo & more' },
+  { id: 'drama', emoji: '📺', name: 'Drama', color: 'from-fuchsia-500 to-purple-500', description: 'K-Drama, C-Drama & more' },
 ]
