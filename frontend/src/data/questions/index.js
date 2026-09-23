@@ -3,6 +3,10 @@ import { blackpink } from './blackpink.js'
 import { twice } from './twice.js'
 import { stray } from './stray.js'
 import { txt } from './txt.js'
+import { seventeen } from './seventeen.js'
+import { newjeans } from './newjeans.js'
+import { aespa } from './aespa.js'
+import { exo } from './exo.js'
 
 export const quizQuestions = {
   bts,
@@ -10,4 +14,8 @@ export const quizQuestions = {
   twice,
   'stray-kids': stray,
   txt,
+  seventeen,
+  newjeans,
+  aespa,
+  exo,
 }
