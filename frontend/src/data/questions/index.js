@@ -5,6 +5,7 @@ import { stray } from './stray.js'
 import { txt } from './txt.js'
 import { seventeen } from './seventeen.js'
 import { newjeans } from './newjeans.js'
+import { aespa } from './aespa.js'
 
 export const quizQuestions = {
   bts,
@@ -14,4 +15,5 @@ export const quizQuestions = {
   txt,
   seventeen,
   newjeans,
+  aespa,
 }
