@@ -10,6 +10,7 @@ import { exo } from './exo.js'
 import { redVelvet } from './redvelvet.js'
 import { ive } from './ive.js'
 import { gidle } from './gidle.js'
+import { lesserafim } from './lesserafim.js'
 
 export const quizQuestions = {
   bts,
@@ -24,4 +25,5 @@ export const quizQuestions = {
   'red-velvet': redVelvet,
   ive,
   gidle,
+  'le-sserafim': lesserafim,
 }
