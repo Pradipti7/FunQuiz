@@ -8,6 +8,7 @@ import { newjeans } from './newjeans.js'
 import { aespa } from './aespa.js'
 import { exo } from './exo.js'
 import { redVelvet } from './redvelvet.js'
+import { ive } from './ive.js'
 
 export const quizQuestions = {
   bts,
@@ -20,4 +21,5 @@ export const quizQuestions = {
   aespa,
   exo,
   'red-velvet': redVelvet,
+  ive,
 }
