@@ -1,5 +1,5 @@
-export const onlyfriends = {
-  beginner: [
+export const onlyfriends = [
+  
     {
       question: 'What is the Thai title of Only Friends?',
       options: ['เพื่อนสนิท', 'มิตรภาพต้องห้าม', 'โอนลีเฟรนด์', 'เพื่อนต้องห้าม'],
@@ -45,8 +45,7 @@ export const onlyfriends = {
       options: ['30 minutes', '40 minutes', '70 minutes', '55 minutes'],
       correct: 3,
     },
-  ],
-  intermediate: [
+
     {
       question: 'On what date was Only Friends announced, at the GMMTV 2023: Diversely Yours event?',
       options: ['October 15, 2022', 'January 6, 2023', 'March 3, 2023', 'November 22, 2022'],
@@ -97,8 +96,8 @@ export const onlyfriends = {
       options: ['Sahaphap Wongratch', 'Tharatorn Jantharaworakarn', 'Gawin Caskey', 'Pirapat Watthanasetsiri'],
       correct: 3,
     },
-  ],
-  pro: [
+  
+  
     {
       question: "Which actor plays Dean, Jack's ex?",
       options: ['Way-ar Sangngern', 'Thanaboon Kiatniran', 'Patsit Permpoonsavat', 'Sahaphap Wongratch'],
@@ -139,5 +138,5 @@ export const onlyfriends = {
       options: ['January–March 2026', 'June–August 2026', 'October–December 2025', 'February 27 – May 15, 2026'],
       correct: 3,
     },
-  ],
-}
+  
+]
