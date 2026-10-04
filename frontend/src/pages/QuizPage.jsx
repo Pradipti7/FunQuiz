@@ -18,7 +18,10 @@ export default function QuizPage({ category, topic, difficulty, onBack }) {
   const [answers, setAnswers] = useState([]);
 
   const questions = useMemo(() => {
-    const q = quizQuestions[topic.id]?.[difficulty?.id] || [];
+    const topicQuestions = quizQuestions[topic.id];
+    const q = Array.isArray(topicQuestions)
+      ? topicQuestions
+      : topicQuestions?.[difficulty?.id] || Object.values(topicQuestions || {}).flat();
     return shuffle(q).map((item) => {
       const correctOption = item.options[item.correct];
       const shuffledOptions = shuffle(item.options);
