@@ -19,6 +19,20 @@ import { nct } from './questions/Kpop/nct.js'
 import { got7 } from './questions/Kpop/got7.js'
 import { mixed } from './questions/Kpop/mixed.js'
 
+import { badbuddy } from './questions/BL/badBuddy.js'
+import { weare } from './questions/BL/weAre.js'
+import { onlyfriends } from './questions/BL/OnlyFriends.js'
+import { meandthee } from './questions/BL/meeThee.js'
+import { twogether } from './questions/BL/2gether.js'
+import { kinnporsche } from './questions/BL/kinnPorse.js'
+import { duangwithyou } from './questions/BL/duangWithu.js'
+import { khemjira } from './questions/BL/khemjira.js'
+import { thamepo } from './questions/BL/thamePo.js'
+import { semanticerror } from './questions/BL/semanticError.js'
+import { cherrymagic } from './questions/BL/cherryMagic.js'
+import { taleofthousandstars } from './questions/BL/taleOfThousandStars.js'
+import { tharntype } from './questions/BL/tharnType.js'
+
 export const quizQuestions = {
   'mixed-kpop': mixed,
   bts,
@@ -40,4 +54,17 @@ export const quizQuestions = {
   ateez,
   nct,
   got7,
+  'bad-buddy': badbuddy,
+  'we-are': weare,
+  'Only Friends + Dream On': onlyfriends,
+  'me-thee-peach': meandthee,
+  '2gether + Still 2gether': twogether,
+  kinnporsche,
+  'duang-with-you': duangwithyou,
+  khemjira,
+  thamepo,
+  'semantic-error': semanticerror,
+  'cherry-magic': cherrymagic,
+  'tale-of-thousand-stars': taleofthousandstars,
+  tharntype,
 }
