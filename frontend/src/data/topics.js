@@ -34,6 +34,8 @@ export const topics = {
     { id: 'thamepo', emoji: '💝', name: 'ThamePo', description: 'Heartfelt Thai BL' },
     { id: 'semantic-error', emoji: '📚', name: 'Semantic Error', description: 'Korean BL classic' },
     { id: 'cherry-magic', emoji: '🍒', name: 'Cherry Magic', description: 'Japanese BL magic' },
+    { id: 'tale-of-thousand-stars', emoji: '🌠', name: 'A Tale of Thousand Stars', description: 'Earth & Mix mountain romance' },
+    { id: 'tharntype', emoji: '🎭', name: 'TharnType', description: 'Roommates to lovers' },
     { id: 'heartstopper', emoji: '💚', name: 'Heartstopper', description: 'Nick & Charlie' },
   ],
   anime: [

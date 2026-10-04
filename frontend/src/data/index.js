@@ -29,6 +29,9 @@ import { duangwithyou } from './questions/BL/duangWithu.js'
 import { khemjira } from './questions/BL/khemjira.js'
 import { thamepo } from './questions/BL/thamePo.js'
 import { semanticerror } from './questions/BL/semanticError.js'
+import { cherrymagic } from './questions/BL/cherryMagic.js'
+import { taleofthousandstars } from './questions/BL/taleOfThousandStars.js'
+import { tharntype } from './questions/BL/tharnType.js'
 
 export const quizQuestions = {
   'mixed-kpop': mixed,
@@ -61,4 +64,7 @@ export const quizQuestions = {
   khemjira,
   thamepo,
   'semantic-error': semanticerror,
+  'cherry-magic': cherrymagic,
+  'tale-of-thousand-stars': taleofthousandstars,
+  tharntype,
 }
