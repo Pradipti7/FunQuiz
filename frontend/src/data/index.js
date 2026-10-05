@@ -33,6 +33,10 @@ import { cherrymagic } from './questions/BL/cherryMagic.js'
 import { taleofthousandstars } from './questions/BL/taleOfThousandStars.js'
 import { tharntype } from './questions/BL/tharnType.js'
 import { lasttwilight } from './questions/BL/lastTwilight.js'
+import { myschoolpresident } from './questions/BL/mySchoolPresident.js'
+import { moonlightchicken } from './questions/BL/moonlightChicken.js'
+import { theheartkillers } from './questions/BL/theHeartKillers.js'
+import { shine } from './questions/BL/shine.js'
 
 export const quizQuestions = {
   'mixed-kpop': mixed,
@@ -69,4 +73,8 @@ export const quizQuestions = {
   'tale-of-thousand-stars': taleofthousandstars,
   tharntype,
   'last-twilight': lasttwilight,
+  'my-school-president': myschoolpresident,
+  'moonlight-chicken': moonlightchicken,
+  'the-heart-killers': theheartkillers,
+  shine,
 }
