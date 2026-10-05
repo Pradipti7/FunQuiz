@@ -37,6 +37,8 @@ export const topics = {
     { id: 'tale-of-thousand-stars', emoji: '🌠', name: 'A Tale of Thousand Stars', description: 'Earth & Mix mountain romance' },
     { id: 'tharntype', emoji: '🎭', name: 'TharnType', description: 'Roommates to lovers' },
     { id: 'last-twilight', emoji: '🌅', name: 'Last Twilight', description: 'Day & Mhok — sight, trust & co-dependence' },
+    { id: 'my-school-president', emoji: '🎓', name: 'My School President', description: 'Tinn & Gun — council crush & music club' },
+    { id: 'moonlight-chicken', emoji: '🍗', name: 'Moonlight Chicken', description: 'Jim & Wen — Midnight Series diner romance' },
     { id: 'heartstopper', emoji: '💚', name: 'Heartstopper', description: 'Nick & Charlie' },
   ],
   anime: [
