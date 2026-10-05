@@ -32,6 +32,7 @@ import { semanticerror } from './questions/BL/semanticError.js'
 import { cherrymagic } from './questions/BL/cherryMagic.js'
 import { taleofthousandstars } from './questions/BL/taleOfThousandStars.js'
 import { tharntype } from './questions/BL/tharnType.js'
+import { lasttwilight } from './questions/BL/lastTwilight.js'
 
 export const quizQuestions = {
   'mixed-kpop': mixed,
@@ -67,4 +68,5 @@ export const quizQuestions = {
   'cherry-magic': cherrymagic,
   'tale-of-thousand-stars': taleofthousandstars,
   tharntype,
+  'last-twilight': lasttwilight,
 }
