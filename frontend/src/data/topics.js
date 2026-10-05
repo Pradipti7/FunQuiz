@@ -41,6 +41,7 @@ export const topics = {
     { id: 'moonlight-chicken', emoji: '🍗', name: 'Moonlight Chicken', description: 'Jim & Wen — Midnight Series diner romance' },
     { id: 'the-heart-killers', emoji: '💀', name: 'The Heart Killers', description: 'Kant, Bison & Fadel — assassins in love' },
     { id: 'shine', emoji: '✨', name: 'Shine', description: 'Trin & Thanwa — Mile & Apo in 1969 Thailand' },
+    { id: 'jack-and-joker', emoji: '🃏', name: 'Jack & Joker', description: 'YinWar — action, crime & heist' },
     { id: 'heartstopper', emoji: '💚', name: 'Heartstopper', description: 'Nick & Charlie' },
   ],
   anime: [

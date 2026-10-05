@@ -19,6 +19,10 @@ import { nct } from './questions/Kpop/nct.js'
 import { got7 } from './questions/Kpop/got7.js'
 import { mixed } from './questions/Kpop/mixed.js'
 
+import { onepiece } from './questions/Anime/onePiece.js'
+import { naruto } from './questions/Anime/naruto.js'
+import { bleach } from './questions/Anime/bleach.js'
+
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
 import { onlyfriends } from './questions/BL/OnlyFriends.js'
@@ -37,9 +41,13 @@ import { myschoolpresident } from './questions/BL/mySchoolPresident.js'
 import { moonlightchicken } from './questions/BL/moonlightChicken.js'
 import { theheartkillers } from './questions/BL/theHeartKillers.js'
 import { shine } from './questions/BL/shine.js'
+import { jackandjoker } from './questions/BL/jackAndJoker.js'
 
 export const quizQuestions = {
   'mixed-kpop': mixed,
+  'one-piece': onepiece,
+  naruto,
+  bleach,
   bts,
   blackpink,
   twice,
@@ -77,4 +85,5 @@ export const quizQuestions = {
   'moonlight-chicken': moonlightchicken,
   'the-heart-killers': theheartkillers,
   shine,
+  'jack-and-joker': jackandjoker,
 }
