@@ -39,6 +39,8 @@ export const topics = {
     { id: 'last-twilight', emoji: '🌅', name: 'Last Twilight', description: 'Day & Mhok — sight, trust & co-dependence' },
     { id: 'my-school-president', emoji: '🎓', name: 'My School President', description: 'Tinn & Gun — council crush & music club' },
     { id: 'moonlight-chicken', emoji: '🍗', name: 'Moonlight Chicken', description: 'Jim & Wen — Midnight Series diner romance' },
+    { id: 'the-heart-killers', emoji: '💀', name: 'The Heart Killers', description: 'Kant, Bison & Fadel — assassins in love' },
+    { id: 'shine', emoji: '✨', name: 'Shine', description: 'Trin & Thanwa — Mile & Apo in 1969 Thailand' },
     { id: 'heartstopper', emoji: '💚', name: 'Heartstopper', description: 'Nick & Charlie' },
   ],
   anime: [
