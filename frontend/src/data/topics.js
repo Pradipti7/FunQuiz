@@ -36,6 +36,7 @@ export const topics = {
     { id: 'cherry-magic', emoji: '🍒', name: 'Cherry Magic', description: 'Japanese BL magic' },
     { id: 'tale-of-thousand-stars', emoji: '🌠', name: 'A Tale of Thousand Stars', description: 'Earth & Mix mountain romance' },
     { id: 'tharntype', emoji: '🎭', name: 'TharnType', description: 'Roommates to lovers' },
+    { id: 'last-twilight', emoji: '🌅', name: 'Last Twilight', description: 'Day & Mhok — sight, trust & co-dependence' },
     { id: 'heartstopper', emoji: '💚', name: 'Heartstopper', description: 'Nick & Charlie' },
   ],
   anime: [
