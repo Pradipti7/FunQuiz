@@ -22,6 +22,7 @@ import { mixed } from './questions/Kpop/mixed.js'
 import { onepiece } from './questions/Anime/onePiece.js'
 import { naruto } from './questions/Anime/naruto.js'
 import { bleach } from './questions/Anime/bleach.js'
+import { attackOnTitan } from './questions/Anime/attackOnTitan.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -48,6 +49,7 @@ export const quizQuestions = {
   'one-piece': onepiece,
   naruto,
   bleach,
+  'attack-on-titan': attackOnTitan,
   bts,
   blackpink,
   twice,
