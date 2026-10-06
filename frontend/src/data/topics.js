@@ -55,6 +55,7 @@ export const topics = {
     { id: 'death-note', emoji: '📓', name: 'Death Note', description: 'I am Justice' },
     { id: 'fruit-basket', emoji: '🍊', name: 'Fruits Basket', description: 'The zodiac curse' },
     { id: 'haikyuu', emoji: '🏐', name: 'Haikyuu!!', description: 'Fly high!' },
+    { id: 'your-lie-in-april', emoji: '🎻', name: 'Your Lie in April', description: 'A lie in spring' },
     { id: 'fullmetal-alchemist', emoji: '⚗️', name: 'Fullmetal Alchemist', description: 'Equivalent exchange' },
     { id: 'spy-family', emoji: '👨‍👩‍👧', name: 'Spy x Family', description: 'Waku waku!' },
     { id: 'chainsaw-man', emoji: '🪚', name: 'Chainsaw Man', description: 'Denji\'s wild ride' },
