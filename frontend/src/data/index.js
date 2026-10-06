@@ -24,6 +24,8 @@ import { naruto } from './questions/Anime/naruto.js'
 import { bleach } from './questions/Anime/bleach.js'
 import { attackOnTitan } from './questions/Anime/attackOnTitan.js'
 import { demonSlayer } from './questions/Anime/demonSlayer.js'
+import { jujutsuKaisen } from './questions/Anime/jujutsuKaisen.js'
+import { myHeroAcademia } from './questions/Anime/myHeroAcademia.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -52,6 +54,8 @@ export const quizQuestions = {
   bleach,
   'attack-on-titan': attackOnTitan,
   'demon-slayer': demonSlayer,
+  'jujutsu-kaisen': jujutsuKaisen,
+  'my-hero-academia': myHeroAcademia,
   bts,
   blackpink,
   twice,
