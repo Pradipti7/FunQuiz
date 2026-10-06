@@ -53,6 +53,7 @@ export const topics = {
     { id: 'my-hero-academia', emoji: '💪', name: 'My Hero Academia', description: 'Plus Ultra!' },
     { id: 'attack-on-titan', emoji: '⚔️', name: 'Attack on Titan', description: 'Shinzou wo sasageyo' },
     { id: 'death-note', emoji: '📓', name: 'Death Note', description: 'I am Justice' },
+    { id: 'fruit-basket', emoji: '🍊', name: 'Fruits Basket', description: 'The zodiac curse' },
     { id: 'haikyuu', emoji: '🏐', name: 'Haikyuu!!', description: 'Fly high!' },
     { id: 'fullmetal-alchemist', emoji: '⚗️', name: 'Fullmetal Alchemist', description: 'Equivalent exchange' },
     { id: 'spy-family', emoji: '👨‍👩‍👧', name: 'Spy x Family', description: 'Waku waku!' },
