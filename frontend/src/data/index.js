@@ -35,6 +35,7 @@ import { thatTimeReincarnatedSlime } from './questions/Anime/thatTimeReincarnate
 import { reZero } from './questions/Anime/reZero.js'
 import { classroomOfTheElite } from './questions/Anime/classroomOfTheElite.js'
 import { apothecaryDiaries } from './questions/Anime/apothecaryDiaries.js'
+import { tokyoRevengers } from './questions/Anime/tokyoRevengers.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -74,6 +75,7 @@ export const quizQuestions = {
   're-zero': reZero,
   'classroom-of-the-elite': classroomOfTheElite,
   'the-apothecary-diaries': apothecaryDiaries,
+  'tokyo-revengers': tokyoRevengers,
   bts,
   blackpink,
   twice,

@@ -60,6 +60,7 @@ export const topics = {
     { id: 're-zero', emoji: '🌀', name: 'Re:Zero', description: 'Return by Death' },
     { id: 'classroom-of-the-elite', emoji: '🏫', name: 'Classroom of the Elite', description: 'All are equal in the end' },
     { id: 'the-apothecary-diaries', emoji: '🌿', name: 'The Apothecary Diaries', description: 'Maomao solves mysteries' },
+    { id: 'tokyo-revengers', emoji: '🐯', name: 'Tokyo Revengers', description: 'Protect the future' },
     { id: 'fullmetal-alchemist', emoji: '⚗️', name: 'Fullmetal Alchemist', description: 'Equivalent exchange' },
     { id: 'spy-family', emoji: '👨‍👩‍👧', name: 'Spy x Family', description: 'Waku waku!' },
     { id: 'chainsaw-man', emoji: '🪚', name: 'Chainsaw Man', description: 'Denji\'s wild ride' },
