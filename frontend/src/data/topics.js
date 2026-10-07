@@ -59,6 +59,7 @@ export const topics = {
     { id: 'that-time-i-reincarnated-as-a-slime', emoji: '🟦', name: 'That Time I Got Reincarnated as a Slime', description: 'Rimuru Tempest' },
     { id: 're-zero', emoji: '🌀', name: 'Re:Zero', description: 'Return by Death' },
     { id: 'classroom-of-the-elite', emoji: '🏫', name: 'Classroom of the Elite', description: 'All are equal in the end' },
+    { id: 'the-apothecary-diaries', emoji: '🌿', name: 'The Apothecary Diaries', description: 'Maomao solves mysteries' },
     { id: 'fullmetal-alchemist', emoji: '⚗️', name: 'Fullmetal Alchemist', description: 'Equivalent exchange' },
     { id: 'spy-family', emoji: '👨‍👩‍👧', name: 'Spy x Family', description: 'Waku waku!' },
     { id: 'chainsaw-man', emoji: '🪚', name: 'Chainsaw Man', description: 'Denji\'s wild ride' },
