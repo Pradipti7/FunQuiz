@@ -31,6 +31,13 @@ import { deathNote } from './questions/Anime/deathNote.js'
 import { fruitBasket } from './questions/Anime/fruitBasket.js'
 import { haikyuu } from './questions/Anime/haikyuu.js'
 import { yourLieInApril } from './questions/Anime/yourLieInApril.js'
+import { thatTimeReincarnatedSlime } from './questions/Anime/thatTimeReincarnatedSlime.js'
+import { reZero } from './questions/Anime/reZero.js'
+import { classroomOfTheElite } from './questions/Anime/classroomOfTheElite.js'
+import { apothecaryDiaries } from './questions/Anime/apothecaryDiaries.js'
+import { tokyoRevengers } from './questions/Anime/tokyoRevengers.js'
+import { tokyoGhoul } from './questions/Anime/tokyoGhoul.js'
+import { vinlandSaga } from './questions/Anime/vinlandSaga.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -66,6 +73,13 @@ export const quizQuestions = {
   'fruit-basket': fruitBasket,
   haikyuu,
   'your-lie-in-april': yourLieInApril,
+  'that-time-i-reincarnated-as-a-slime': thatTimeReincarnatedSlime,
+  're-zero': reZero,
+  'classroom-of-the-elite': classroomOfTheElite,
+  'the-apothecary-diaries': apothecaryDiaries,
+  'tokyo-revengers': tokyoRevengers,
+  'tokyo-ghoul': tokyoGhoul,
+  'vinland-saga': vinlandSaga,
   bts,
   blackpink,
   twice,
