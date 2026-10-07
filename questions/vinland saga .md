@@ -9,7 +9,7 @@ vinland saga
 7. Who is Canute's father, the King of Denmark seeking to conquer England? — **Sweyn Forkbeard** / Thors / Askeladd / Leif Erikson  
 8. What happens to Canute's character over the course of the series, especially after Askeladd's death? — **He transforms from a timid, passive prince into a ruthless, determined king** / He remains unchanged throughout / He abandons his royal claim entirely / He becomes a pacifist like Thorfinn  
 9. What massive, intimidating warrior frequently fights alongside Askeladd's band, known for his love of battle? — **Thorkell** / Floki / Bjorn / Ragnar  
-10. What happens to Askeladd at the end of Season 1, in a pivotal plot twist? — **He is killed by Thorfinn, fulfilling a complex plan tied to Canute's rise to power** / He retires peacefully / He becomes king himself / He flees to Vinland  
+10. What happens to Askeladd at the end of Season 1, in a pivotal plot twist? — **He is killed by Canute, fulfilling a complex plan tied to Canute's rise to power** / He retires peacefully / He becomes king himself / He flees to Vinland  
 11. What title is given to the arc that makes up most of Season 2, following Askeladd's death? — **The Slave Arc (Farm Arc)** / The Revenge Arc / The Siege of London / The Vinland Voyage  
 12. Who buys Thorfinn as a slave after he loses his purpose following Askeladd's death? — **Ketil**, a landowner / Thorkell / Canute / Leif Erikson  
 13. What work does Thorfinn perform while enslaved on the farm? — **Land reclamation/clearing forest for farmland** / Blacksmithing / Shipbuilding / Military training  
