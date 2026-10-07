@@ -28,6 +28,9 @@ import { jujutsuKaisen } from './questions/Anime/jujutsuKaisen.js'
 import { myHeroAcademia } from './questions/Anime/myHeroAcademia.js'
 import { hunterXHunter } from './questions/Anime/hunterXHunter.js'
 import { deathNote } from './questions/Anime/deathNote.js'
+import { fruitBasket } from './questions/Anime/fruitBasket.js'
+import { haikyuu } from './questions/Anime/haikyuu.js'
+import { yourLieInApril } from './questions/Anime/yourLieInApril.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -60,6 +63,9 @@ export const quizQuestions = {
   'my-hero-academia': myHeroAcademia,
   'hunter-x-hunter': hunterXHunter,
   'death-note': deathNote,
+  'fruit-basket': fruitBasket,
+  haikyuu,
+  'your-lie-in-april': yourLieInApril,
   bts,
   blackpink,
   twice,
