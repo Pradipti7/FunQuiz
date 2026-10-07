@@ -38,6 +38,10 @@ import { apothecaryDiaries } from './questions/Anime/apothecaryDiaries.js'
 import { tokyoRevengers } from './questions/Anime/tokyoRevengers.js'
 import { tokyoGhoul } from './questions/Anime/tokyoGhoul.js'
 import { vinlandSaga } from './questions/Anime/vinlandSaga.js'
+import { codeGeass } from './questions/Anime/codeGeass.js'
+import { dragonBall } from './questions/Anime/dragonBall.js'
+import { onePunchMan } from './questions/Anime/onePunchMan.js'
+import { soloLeveling } from './questions/Anime/soloLeveling.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -80,6 +84,10 @@ export const quizQuestions = {
   'tokyo-revengers': tokyoRevengers,
   'tokyo-ghoul': tokyoGhoul,
   'vinland-saga': vinlandSaga,
+  'code-geass': codeGeass,
+  'dragon-ball': dragonBall,
+  'one-punch-man': onePunchMan,
+  'solo-leveling': soloLeveling,
   bts,
   blackpink,
   twice,
