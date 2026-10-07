@@ -33,6 +33,7 @@ import { haikyuu } from './questions/Anime/haikyuu.js'
 import { yourLieInApril } from './questions/Anime/yourLieInApril.js'
 import { thatTimeReincarnatedSlime } from './questions/Anime/thatTimeReincarnatedSlime.js'
 import { reZero } from './questions/Anime/reZero.js'
+import { classroomOfTheElite } from './questions/Anime/classroomOfTheElite.js'
 
 import { badbuddy } from './questions/BL/badBuddy.js'
 import { weare } from './questions/BL/weAre.js'
@@ -70,6 +71,7 @@ export const quizQuestions = {
   'your-lie-in-april': yourLieInApril,
   'that-time-i-reincarnated-as-a-slime': thatTimeReincarnatedSlime,
   're-zero': reZero,
+  'classroom-of-the-elite': classroomOfTheElite,
   bts,
   blackpink,
   twice,
